@@ -1,15 +1,15 @@
 # cbuffer
-Esame: PROGRAMMAZIONE E AMMINISTRAZIONE DI SISTEMA;
+Esame: PROGRAMMAZIONE E AMMINISTRAZIONE DI SISTEMA
 
-Progetto c++/Qt;
+Progetto c++/Qt
 
-Nome: Umberto;
+Nome: Umberto
 
-Cognome: Cocca;
+Cognome: Cocca
 
 Il progetto richiede di creare una classe cbuffer generica che implementa un buffer
 circolare di tipo T. Per fare ciò all’interno della classe cbuffer ho creato una struct nodo nel
-quale viene salvato il generico valore chiamato value e il puntatore alla nodo successivo,
+quale viene salvato il generico valore chiamato value e il puntatore al nodo successivo,
 un puntatore che punta alla testa del buffer (cioè che punta alla struct più vecchia) e infine
 una _size che rappresenta la capacità del buffer.
 
